@@ -1,0 +1,815 @@
+/*
+
+Vivado v2016.1 (64-bit)
+SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+Process ID: 980
+
+Current time: 	2/10/20 1:17:47 PM IST
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.1/tps/win64/jre
+
+User name: 	VLSI
+User home directory: C:/Users/VLSI
+User working directory: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.1/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.1/bin
+
+Vivado preferences path: C:/Users/VLSI/AppData/Roaming/Xilinx/Vivado/2016.1/vivado.ini
+Vivado layouts directory: C:/Users/VLSI/AppData/Roaming/Xilinx/Vivado/2016.1/layouts
+
+GUI allocated memory:	216 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 430 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 56 MB (+56187kb) [00:00:03]
+// [Engine Memory]: 379 MB (+246086kb) [00:00:03]
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\VLSI\Desktop\N150194\Distributed_arithmetic\Distributed_arithmetic.xpr. Version: Vivado v2016.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 436 MB (+39504kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 438 MB. GUI used memory: 29 MB. Current time: 2/10/20 1:17:49 PM IST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 508 MB (+52856kb) [00:00:14]
+// [Engine Memory]: 535 MB (+1822kb) [00:00:16]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 60 MB (+794kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 64 MB (+1907kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 571 MB (+9880kb) [00:00:20]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: Distributed_arithmetic; location: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic; part: xc7a100tcsg324-1
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 842.711 ; gain = 189.598 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 581 MB. GUI used memory: 38 MB. Current time: 2/10/20 1:18:04 PM IST
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// G:be (cv:JFrame): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // G:be (cv:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a100tcsg324-1 Top: vio_file 
+// [Engine Memory]: 611 MB (+11435kb) [00:00:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 40 MB. Current time: 2/10/20 1:18:29 PM IST
+// [Engine Memory]: 657 MB (+15921kb) [00:00:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 39 MB. Current time: 2/10/20 1:18:44 PM IST
+// TclEventType: ELABORATE_FINISH
+// [Engine Memory]: 727 MB (+38963kb) [00:01:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 771 MB. GUI used memory: 39 MB. Current time: 2/10/20 1:19:14 PM IST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 863 MB (+104776kb) [00:01:37]
+// HMemoryUtils.trashcanNow. Engine heap size: 863 MB. GUI used memory: 39 MB. Current time: 2/10/20 1:19:18 PM IST
+// [GUI Memory]: 77 MB (+9534kb) [00:01:38]
+// [Engine Memory]: 960 MB (+56155kb) [00:01:38]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// TclEventType: DESIGN_NEW
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:35 ; elapsed = 00:00:52 . Memory (MB): peak = 848.168 ; gain = 641.332 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 871.539 ; gain = 664.703 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 871.539 ; gain = 664.703 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.dcp' for cell 'da' INFO: [Project 1-479] Netlist was created with Vivado 2016.1 INFO: [Device 21-403] Loading part xc7a100tcsg324-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'da' Finished Parsing XDC File [c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'da' Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/constrs_1/new/vio_file.xdc] Finished Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/constrs_1/new/vio_file.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:48 ; elapsed = 00:01:49 . Memory (MB): peak = 1203.953 ; gain = 997.117 
+// Tcl Message: 13 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:01:02 . Memory (MB): peak = 1203.953 ; gain = 355.785 
+// 'dF' command handler elapsed time: 64 seconds
+// [GUI Memory]: 84 MB (+3961kb) [00:01:46]
+// Elapsed time: 62 seconds
+dismissDialog("Open Elaborated Design"); // bL:g (cv:JFrame)
+selectButton(PAResourceItoN.NetlistSchematicView_SHOW_IO_PORTS_IN_THIS_SCHEMATIC, "1 I/O Port"); // i:l (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 21, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// [GUI Memory]: 89 MB (+434kb) [00:02:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 997 MB. GUI used memory: 65 MB. Current time: 2/10/20 1:19:44 PM IST
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bL:g)
+// 'm' command handler elapsed time: 5 seconds
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 88 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 22); // x:Y (w:G, cv:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 22); // x:Y (w:G, cv:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaborated Design]", 14); // x:Y (w:G, cv:JFrame)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18); // x:Y (w:G, cv:JFrame)
+// [GUI Memory]: 102 MB (+9252kb) [00:03:51]
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 10 13:21:41 2020] Launched synth_1... Run output will be captured here: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:02:01 . Memory (MB): peak = 1204.516 ; gain = 0.000 
+// [GUI Memory]: 110 MB (+2824kb) [00:04:01]
+// Elapsed time: 13 seconds
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Power]", 29, false); // x:Y (w:G, cv:JFrame)
+// bL:g (cv:JFrame):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,012 MB (+4070kb) [00:04:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 68 MB. Current time: 2/10/20 1:21:49 PM IST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,076 MB (+14854kb) [00:04:08]
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.dcp' for cell 'da' INFO: [Netlist 29-17] Analyzing 105 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'da' Finished Parsing XDC File [c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'da' Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/constrs_1/new/vio_file.xdc] Finished Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/constrs_1/new/vio_file.xdc] 
+// Tcl Message: INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.dcp' INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Run Command: PAResourceCommand.PACommandNames_POWER_ESTIMATION
+// a:x (cv:JFrame): Report Power: addNotify
+// Device view-level: 0.0
+selectButton(PAResourceTtoZ.XPowerSettingsDialog_SAVE_THESE_SETTINGS_AND_RUN, "OK"); // a:JButton (JPanel:JComponent, a:x)
+// Run Command: PAResourceCommand.PACommandNames_RUN_POWER_ESTIMATION
+dismissDialog("Report Power"); // a:x (cv:JFrame)
+// bL:g (cv:JFrame):  Power Estimation : addNotify
+// Tcl Message: report_power -name {power_1} 
+// [Engine Memory]: 1,154 MB (+24688kb) [00:04:18]
+// RouteApi::initDelayMediator elapsed time: 11.3s
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: POWER_CNS_UPDATED
+// TclEventType: POWER_UPDATED
+// [Engine Memory]: 1,467 MB (+268394kb) [00:04:22]
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. 
+// Tcl Message: Running Vector-less Activity Propagation...  Finished Running Vector-less Activity Propagation 
+// Tcl Message: report_power: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1788.547 ; gain = 463.348 
+// Elapsed time: 10 seconds
+dismissDialog("Power Estimation"); // bL:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,467 MB. GUI used memory: 82 MB. Current time: 2/10/20 1:22:04 PM IST
+maximizeFrame(PAResourceOtoP.PAViews_POWER, "Power - power_1"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Synthesized Design, Report Utilization]", 28, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// a:x (cv:JFrame): Report Utilization: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:x)
+dismissDialog("Report Utilization"); // a:x (cv:JFrame)
+// TclEventType: UTILIZATION_RESULT_GENERATED
+// bL:g (cv:JFrame):  Report Utilization : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,479 MB. GUI used memory: 86 MB. Current time: 2/10/20 1:22:15 PM IST
+// Tcl Message: report_utilization -name utilization_1 
+// Device view-level: 0.0
+// Tcl Message: report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1788.547 ; gain = 0.000 
+dismissDialog("Report Utilization"); // bL:g (cv:JFrame)
+maximizeFrame(PAResourceOtoP.PAViews_UTILIZATION, "Utilization - utilization_1"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+selectTree(PAResourceQtoS.ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE, "[Report Contents, Summary]", 1, false); // o:p (JViewport:JComponent, cv:JFrame)
+// [GUI Memory]: 120 MB (+4421kb) [00:05:06]
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Synthesized Design, Report Timing Summary]", 22, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_TIMING_SUMMARY
+// aA:a (cv:JFrame): Report Timing Summary: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aA:a)
+dismissDialog("Report Timing Summary"); // aA:a (cv:JFrame)
+// bL:g (cv:JFrame):  Report Timing Summary : addNotify
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Tcl Message: report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1 
+// Tcl Message: INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max. INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs 
+// Device view-level: 0.1
+dismissDialog("Report Timing Summary"); // bL:g (cv:JFrame)
+maximizeFrame(PAResourceOtoP.PAViews_TIMING, "Timing - Timing Summary - timing_1"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// [GUI Memory]: 129 MB (+3216kb) [00:05:16]
+// Elapsed time: 52 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 33, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: Writing placer database... Writing XDEF routing. Writing XDEF routing logical nets. Writing XDEF routing special nets. 
+// Tcl Message: Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 1806.059 ; gain = 0.000 
+// TclEventType: RUN_LAUNCH
+// Elapsed time: 23 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bL:g)
+// 'c' command handler elapsed time: 23 seconds
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 10 13:25:48 2020] Launched impl_1... Run output will be captured here: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.runs/impl_1/runme.log 
+// Elapsed time: 97 seconds
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// Elapsed time: 38 seconds
+unMaximizeFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// [GUI Memory]: 136 MB (+485kb) [00:10:10]
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 143 MB (+109kb) [00:14:02]
+// ap:G (cv:JFrame): Implementation Completed: addNotify
+// Elapsed time: 343 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// d:g (cv:JFrame): Close Design: addNotify
+// 'dF' command handler elapsed time: 3 seconds
+dismissDialog("Close Design"); // d:g (cv:JFrame)
+// Elapsed time: 11 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 34); // x:Y (w:G, cv:JFrame)
+// [GUI Memory]: 151 MB (+1380kb) [00:14:45]
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Synthesized Design]", 18); // x:Y (w:G, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design, Report Power]", 32, false); // x:Y (w:G, cv:JFrame)
+// bL:g (cv:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,534 MB. GUI used memory: 104 MB. Current time: 2/10/20 1:32:43 PM IST
+// TclEventType: DESIGN_NEW
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 121 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/.Xil/Vivado-980-DESKTOP-FAGG66O/dcp/vio_file_early.xdc] Finished Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/.Xil/Vivado-980-DESKTOP-FAGG66O/dcp/vio_file_early.xdc] Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/.Xil/Vivado-980-DESKTOP-FAGG66O/dcp/vio_file.xdc] 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.runs/impl_1/.Xil/Vivado-5836-DESKTOP-FAGG66O/dbg_hub_CV.0/out/xsdbm.xdc:11] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/.Xil/Vivado-980-DESKTOP-FAGG66O/dcp/vio_file.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.736 . Memory (MB): peak = 1933.707 ; gain = 0.891 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.770 . Memory (MB): peak = 1933.707 ; gain = 0.891 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 6 instances were transformed.   RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 6 instances  
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.3s
+// Device view-level: 0.0
+// Elapsed time: 11 seconds
+dismissDialog("Open Implemented Design"); // bL:g (cv:JFrame)
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// bL:g (cv:JFrame):  Open Timing Summary : addNotify
+// Run Command: PAResourceCommand.PACommandNames_POWER_ESTIMATION
+// a:x (cv:JFrame): Report Power: addNotify
+selectButton(PAResourceTtoZ.XPowerSettingsDialog_SAVE_THESE_SETTINGS_AND_RUN, "OK"); // a:JButton (JPanel:JComponent, a:x)
+// Run Command: PAResourceCommand.PACommandNames_RUN_POWER_ESTIMATION
+// 'cZ' command handler elapsed time: 4 seconds
+dismissDialog("Report Power"); // a:x (cv:JFrame)
+// bL:g (cv:JFrame):  Power Analysis : addNotify
+// Tcl Message: report_power -name {power_1} 
+// Tcl Message: Running Vector-less Activity Propagation... 
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: POWER_CNS_UPDATED
+// TclEventType: POWER_UPDATED
+// Tcl Message:  Finished Running Vector-less Activity Propagation 
+dismissDialog("Power Analysis"); // bL:g (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Implemented Design, Report Utilization]", 31, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// a:x (cv:JFrame): Report Utilization: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:x)
+dismissDialog("Report Utilization"); // a:x (cv:JFrame)
+// TclEventType: UTILIZATION_RESULT_GENERATED
+// [GUI Memory]: 160 MB (+1067kb) [00:15:21]
+// bL:g (cv:JFrame):  Report Utilization : addNotify
+// [GUI Memory]: 168 MB (+368kb) [00:15:21]
+// Tcl Message: report_utilization -name utilization_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,534 MB. GUI used memory: 138 MB. Current time: 2/10/20 1:33:02 PM IST
+// Tcl Message: report_utilization: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 1993.918 ; gain = 0.000 
+dismissDialog("Report Utilization"); // bL:g (cv:JFrame)
+maximizeFrame(PAResourceOtoP.PAViews_UTILIZATION, "Utilization - utilization_1"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+selectTree(PAResourceQtoS.ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE, "[Report Contents, Summary]", 1, false); // o:p (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Implemented Design, Report Timing Summary]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_TIMING_SUMMARY
+// aA:a (cv:JFrame): Report Timing Summary: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aA:a)
+dismissDialog("Report Timing Summary"); // aA:a (cv:JFrame)
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Tcl Message: report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1 
+// Tcl Message: INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max. INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs 
+// bL:g (cv:JFrame):  Report Timing Summary : addNotify
+dismissDialog("Report Timing Summary"); // bL:g (cv:JFrame)
+// [GUI Memory]: 180 MB (+3160kb) [00:15:49]
+// Elapsed time: 33 seconds
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Implemented Design]", 22); // x:Y (w:G, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bL:g)
+unMaximizeFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// Device view-level: 0.1
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 10 13:35:52 2020] Launched impl_1... Run output will be captured here: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:02:01 . Memory (MB): peak = 1993.918 ; gain = 0.000 
+// Elapsed time: 116 seconds
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// [GUI Memory]: 190 MB (+1430kb) [00:19:28]
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 379 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+// aW:be (cv:JFrame): Feedback Request: addNotify
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+dismissDialog("Feedback Request"); // aW:be (cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New Project..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// h:g (cv:JFrame): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+// Elapsed time: 19 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "offset_binary_coding"); // ao:JTextField (JPanel:JComponent, h:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectComboBox(PAResourceOtoP.PartChooser_FAMILY_CHOOSER, "Artix-7", 1); // ak:N (JPanel:JComponent, h:g)
+selectComboBox(PAResourceOtoP.PartChooser_PART_PACKAGE_CHOOSER, "csg324", 2); // ac:N (JPanel:JComponent, h:g)
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xc7a100tcsg324-1 ; 324 ; 135 ; 240 ; 126800 ; 0 ; 0 ; 210 ; 63400 ; 6 ; 1 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95", 23, "xc7a100tcsg324-1", 0); // P:v (JViewport:JComponent, h:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,534 MB. GUI used memory: 140 MB. Current time: 2/10/20 1:43:11 PM IST
+// Engine heap size: 1,534 MB. GUI used memory: 152 MB. Current time: 2/10/20 1:43:12 PM IST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 1,534 MB. GUI used memory: 152 MB. Current time: 2/10/20 1:43:12 PM IST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 1,534 MB. GUI used memory: 152 MB. Current time: 2/10/20 1:43:12 PM IST
+// TclEventType: DESIGN_CLOSE
+// bL:g (h:g):  Create Project : addNotify
+// Elapsed time: 52 seconds
+selectButton("PAResourceItoN.NewProjectWizard_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_project 
+// Tcl Message: ****** Webtalk v2016.1 (64-bit)   **** SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016   **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.hw/webtalk/labtool_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Mon Feb 10 13:43:59 2020... 
+// Tcl Message: close_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:49 . Memory (MB): peak = 2119.195 ; gain = 11.676 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project offset_binary_coding C:/Users/VLSI/Desktop/N150194/offset_binary_coding -part xc7a100tcsg324-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2119.195 ; gain = 0.000 
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+// 'g' command handler elapsed time: 94 seconds
+dismissDialog("Create Project"); // bL:g (h:g)
+dismissDialog("New Project"); // h:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 45 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cv:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (F:JPanel, b:g)
+// J:x (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "obc"); // ao:JTextField (JPanel:JComponent, J:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:x)
+// Tcl Command: 'file mkdir C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new'
+dismissDialog("Create Source File"); // J:x (b:g)
+// Tcl Message: file mkdir C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'g' command handler elapsed time: 9 seconds
+dismissDialog("Add Sources"); // b:g (cv:JFrame)
+// Tcl Message: close [ open C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/obc.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/obc.v 
+// M:x (cv:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, M:x)
+// TclEventType: DG_GRAPH_STALE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Define Module"); // M:x (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 100 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, obc (obc.v)]", 1, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("obc.v", 2, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "obc.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bL:g (cv:JFrame):  IP Catalog : addNotify
+// 'a' command handler elapsed time: 3 seconds
+dismissDialog("IP Catalog"); // bL:g (cv:JFrame)
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", "vio"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "VIO (Virtual Input/Output) ;  ; Production ; Included ; xilinx.com:ip:vio:3.0", 3, "VIO (Virtual Input/Output)", 0, false); // O:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "VIO (Virtual Input/Output) ;  ; Production ; Included ; xilinx.com:ip:vio:3.0", 3, "VIO (Virtual Input/Output)", 0, false); // O:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "VIO (Virtual Input/Output) ;  ; Production ; Included ; xilinx.com:ip:vio:3.0", 3); // O:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "VIO (Virtual Input/Output) ;  ; Production ; Included ; xilinx.com:ip:vio:3.0", 3, "VIO (Virtual Input/Output)", 0, false, false, false, false, false, true); // O:as (JViewport:JComponent, cv:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l:bL (cv:JFrame):  Customize IP : addNotify
+// TclEventType: LOAD_FEATURE
+// p:g (cv:JFrame): Customize IP: addNotify
+dismissDialog("Customize IP"); // l:bL (cv:JFrame)
+setText("Input  Probe  Count", "1"); // O:ao (cS:N, p:g)
+setText("Output Probe Count", "8"); // O:ao (cS:N, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_IN Ports(0..0)", 1); // cR:g (F:JPanel, p:g)
+setText("PROBE IN0 WIDTH", "32"); // O:ao (cS:N, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_OUT Ports(0..7)", 2); // cR:g (F:JPanel, p:g)
+setText("PROBE OUT0 WIDTH", "8"); // O:ao (cS:N)
+setText("PROBE OUT1 WIDTH", "8"); // O:ao (cS:N)
+setText("PROBE OUT2 WIDTH", "8"); // O:ao (cS:N)
+setText("PROBE OUT3 WIDTH", "8"); // O:ao (cS:N)
+setText("PROBE OUT4 WIDTH", "32"); // O:ao (cS:N)
+setText("PROBE OUT5 WIDTH", "32"); // O:ao (cS:N)
+setText("PROBE OUT6 WIDTH", "32"); // O:ao (cS:N)
+setText("PROBE OUT7 WIDTH", "32"); // O:ao (cS:N, p:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Customize IP"); // p:g (cv:JFrame)
+// TclEventType: CREATE_IP_CORE
+// bL:g (cv:JFrame):  Customize IP : addNotify
+// Tcl Message: create_ip -name vio -vendor xilinx.com -library ip -version 3.0 -module_name vio_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.C_NUM_PROBE_OUT {8} CONFIG.C_PROBE_IN0_WIDTH {32} CONFIG.C_PROBE_OUT0_WIDTH {8} CONFIG.C_PROBE_OUT1_WIDTH {8} CONFIG.C_PROBE_OUT2_WIDTH {8} CONFIG.C_PROBE_OUT3_WIDTH {8} CONFIG.C_PROBE_OUT4_WIDTH {32} CONFIG.C_PROBE_OUT5_WIDTH {32} CONFIG.C_PROBE_OUT6_WIDTH {32} CONFIG.C_PROBE_OUT7_WIDTH {32}] [get_ips vio_0] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files c:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/vio_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'vio_0'... 
+// aD:x (cv:JFrame): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aD:x)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// bL:g (cv:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  c:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/vio_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'vio_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'vio_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'vio_0'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files c:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/vio_0.xci] -no_script -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/vio_0.xci] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_run -jobs 2 vio_0_synth_1 
+// TclEventType: RUN_LAUNCH
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bL:g)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 10 13:50:17 2020] Launched vio_0_synth_1... Run output will be captured here: C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.runs/vio_0_synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:02:01 . Memory (MB): peak = 2119.195 ; gain = 0.000 
+// Tcl Message: export_simulation -of_objects [get_files c:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/vio_0.xci] -directory C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.ip_user_files -ipstatic_source_dir C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.ip_user_files/ipstatic -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// Elapsed time: 122 seconds
+dismissDialog("Managing Output Products"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cv:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (F:JPanel, b:g)
+// J:x (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "vio_file"); // ao:JTextField (JPanel:JComponent, J:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:x)
+dismissDialog("Create Source File"); // J:x (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'g' command handler elapsed time: 11 seconds
+dismissDialog("Add Sources"); // b:g (cv:JFrame)
+// Tcl Message: close [ open C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/vio_file.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/vio_file.v 
+// M:x (cv:JFrame): Define Module: addNotify
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ac:v (m:JViewport, M:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, M:x)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "clk", 0, "Port Name", 0); // ac:v (m:JViewport, M:x)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // M:x (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (N:aK, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, vio_0]", 1); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, vio_0, Instantiation Template]", 2); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, vio_0, Instantiation Template, vio_0.veo]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, vio_0, Instantiation Template, vio_0.veo]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("vio_0.veo", 2, 259); // F:bH (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "vio_0.veo", 'c'); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_0.veo", 230, 417); // F:bH (JPanel:JComponent, cv:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g:JideTabbedPane (N:aK, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_file (vio_file.v)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_file (vio_file.v)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_file (vio_file.v)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 51, 420); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "vio_file.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 46, 353); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "obc.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("obc.v", 168, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "obc.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vio_file.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("vio_file.v", 98, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "vio_file.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "obc.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("obc.v", 200, 236); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "obc.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vio_file.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 200 MB (+210kb) [00:34:21]
+selectCodeEditor("vio_file.v", 119, 374); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 133, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "vio_file.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 209, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 137, 381); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 137, 381, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "obc.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("obc.v", 198, 224); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("obc.v", 335, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "obc.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("obc.v", 226, 242); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vio_file.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("vio_file.v", 242, 360); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "vio_file.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 151, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 151, 382, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 152, 382); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 152, 382, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 160, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 160, 399, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 169, 413); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 170, 413, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 171, 433); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 173, 432, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 155, 448); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 158, 446, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 171, 476); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 171, 476, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 170, 470); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 170, 470, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("vio_file.v", 169, 493); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 169, 493, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 174, 485); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 174, 484, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 169, 500); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 169, 500, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 168, 517); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 168, 517, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vio_file.v", 168, 516); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 168, 516, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'vio_file' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav' 
+// Tcl Message: "xvlog -m64 --relax -prj vio_file_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// HOptionPane Error: " ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.<br> (Run Simulation)"
+// a:a (cv:JFrame): Critical Messages: addNotify
+// 'e' command handler elapsed time: 6 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("vio_file.v", 51, 329); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vio_file.v", 55, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'vio_file' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav' 
+// [GUI Memory]: 215 MB (+5545kb) [00:36:47]
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav' 
+// Tcl Message: Vivado Simulator 2016.1 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 2cc212b1ba0947f2afe3ea43c0054f33 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vio_file_behav xil_defaultlib.vio_file xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module xil_defaultlib.obc Compiling module xil_defaultlib.vio_0 Compiling module xil_defaultlib.vio_file Compiling module xil_defaultlib.glbl 
+// Tcl Message: Built simulation snapshot vio_file_behav 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2016.1 (64-bit)   **** SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016   **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav/xsim.dir/vio_file_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Mon Feb 10 13:55:13 2020... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '45' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "vio_file_behav -key {Behavioral:sim_1:Functional:vio_file} -tclbatch {vio_file.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source vio_file.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:42 . Memory (MB): peak = 2119.195 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'vio_file_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:01:29 . Memory (MB): peak = 2119.195 ; gain = 0.000 
+// 'e' command handler elapsed time: 88 seconds
+// Elapsed time: 88 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)

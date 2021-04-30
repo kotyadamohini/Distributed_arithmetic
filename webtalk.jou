@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Feb 10 13:43:59 2020
+# Process ID: 6580
+# Current directory: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic
+# Command line: wbtcv.exe -mode batch -source C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/webtalk.log
+# Journal file: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.hw/webtalk/labtool_webtalk.tcl -notrace

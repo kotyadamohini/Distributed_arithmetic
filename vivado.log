@@ -1,0 +1,288 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Feb 10 13:17:35 2020
+# Process ID: 980
+# Current directory: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7560 C:\Users\VLSI\Desktop\N150194\Distributed_arithmetic\Distributed_arithmetic.xpr
+# Log file: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/vivado.log
+# Journal file: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+ININFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'opopen_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 812.922 ; gain = 184.39upupdate_compile_order -fileset sources_synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: vio_file
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:35 ; elapsed = 00:00:52 . Memory (MB): peak = 848.168 ; gain = 641.332
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'vio_file' [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/new/vio_file.v:23]
+INFO: [Synth 8-638] synthesizing module 'da' [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/new/da.v:23]
+INFO: [Synth 8-256] done synthesizing module 'da' (1#1) [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/new/da.v:23]
+INFO: [Synth 8-638] synthesizing module 'vio_0' [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/.Xil/Vivado-980-DESKTOP-FAGG66O/realtime/vio_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'vio_0' (2#1) [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/.Xil/Vivado-980-DESKTOP-FAGG66O/realtime/vio_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'vio_file' (3#1) [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/new/vio_file.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 871.539 ; gain = 664.703
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 871.539 ; gain = 664.703
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.dcp' for cell 'da'
+INFO: [Project 1-479] Netlist was created with Vivado 2016.1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'da'
+Finished Parsing XDC File [c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'da'
+Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/constrs_1/new/vio_file.xdc]
+Finished Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/constrs_1/new/vio_file.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:48 ; elapsed = 00:01:49 . Memory (MB): peak = 1203.953 ; gain = 997.117
+13 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:01:02 . Memory (MB): peak = 1203.953 ; gain = 355.785
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/new/da.v" into library work [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/new/da.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/new/vio_file.v" into library work [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/new/vio_file.v:1]
+[Mon Feb 10 13:21:41 2020] Launched synth_1...
+Run output will be captured here: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:02:01 . Memory (MB): peak = 1204.516 ; gain = 0.000
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.dcp' for cell 'da'
+INFO: [Netlist 29-17] Analyzing 105 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'da'
+Finished Parsing XDC File [c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'da'
+Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/constrs_1/new/vio_file.xdc]
+Finished Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/constrs_1/new/vio_file.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.srcs/sources_1/ip/vio_0/vio_0.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_power -name {power_1}
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Power 33-232] No user defined clocks were found in the design!
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+report_power: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1788.547 ; gain = 463.348
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1788.547 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+launch_runs impl_1 -jobs 2
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 1806.059 ; gain = 0.000
+[Mon Feb 10 13:25:48 2020] Launched impl_1...
+Run output will be captured here: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:02:01 . Memory (MB): peak = 1806.059 ; gain = 0.000
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 121 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/.Xil/Vivado-980-DESKTOP-FAGG66O/dcp/vio_file_early.xdc]
+Finished Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/.Xil/Vivado-980-DESKTOP-FAGG66O/dcp/vio_file_early.xdc]
+Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/.Xil/Vivado-980-DESKTOP-FAGG66O/dcp/vio_file.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.runs/impl_1/.Xil/Vivado-5836-DESKTOP-FAGG66O/dbg_hub_CV.0/out/xsdbm.xdc:11]
+Finished Parsing XDC File [C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/.Xil/Vivado-980-DESKTOP-FAGG66O/dcp/vio_file.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.736 . Memory (MB): peak = 1933.707 ; gain = 0.891
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.770 . Memory (MB): peak = 1933.707 ; gain = 0.891
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 6 instances
+
+open_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1993.918 ; gain = 187.859
+report_power -name {power_1}
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 1993.918 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Feb 10 13:35:52 2020] Launched impl_1...
+Run output will be captured here: C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:02:01 . Memory (MB): peak = 1993.918 ; gain = 0.000
+close_project
+****** Webtalk v2016.1 (64-bit)
+  **** SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+  **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/VLSI/Desktop/N150194/Distributed_arithmetic/Distributed_arithmetic.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Feb 10 13:43:59 2020...
+close_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:49 . Memory (MB): peak = 2119.195 ; gain = 11.676
+create_project offset_binary_coding C:/Users/VLSI/Desktop/N150194/offset_binary_coding -part xc7a100tcsg324-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2119.195 ; gain = 0.000
+file mkdir C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new
+close [ open C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/obc.v w ]
+add_files C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/obc.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+create_ip -name vio -vendor xilinx.com -library ip -version 3.0 -module_name vio_0
+set_property -dict [list CONFIG.C_NUM_PROBE_OUT {8} CONFIG.C_PROBE_IN0_WIDTH {32} CONFIG.C_PROBE_OUT0_WIDTH {8} CONFIG.C_PROBE_OUT1_WIDTH {8} CONFIG.C_PROBE_OUT2_WIDTH {8} CONFIG.C_PROBE_OUT3_WIDTH {8} CONFIG.C_PROBE_OUT4_WIDTH {32} CONFIG.C_PROBE_OUT5_WIDTH {32} CONFIG.C_PROBE_OUT6_WIDTH {32} CONFIG.C_PROBE_OUT7_WIDTH {32}] [get_ips vio_0]
+generate_target {instantiation_template} [get_files c:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/vio_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'vio_0'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  c:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/vio_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'vio_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'vio_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'vio_0'...
+export_ip_user_files -of_objects [get_files c:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/vio_0.xci] -no_script -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/vio_0.xci]
+launch_run -jobs 2 vio_0_synth_1
+[Mon Feb 10 13:50:17 2020] Launched vio_0_synth_1...
+Run output will be captured here: C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.runs/vio_0_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:02:01 . Memory (MB): peak = 2119.195 ; gain = 0.000
+export_simulation -of_objects [get_files c:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/vio_0.xci] -directory C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.ip_user_files -ipstatic_source_dir C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.ip_user_files/ipstatic -force -quiet
+close [ open C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/vio_file.v w ]
+add_files C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/vio_file.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'vio_file' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav'
+"xvlog -m64 --relax -prj vio_file_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/sim/vio_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vio_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/obc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module obc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/vio_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vio_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav'
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 2cc212b1ba0947f2afe3ea43c0054f33 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vio_file_behav xil_defaultlib.vio_file xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1047] module instantiation should have an instance name [C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/vio_file.v:28]
+ERROR: [VRFC 10-2063] Module <vio_0> not found while processing module instance <obc> [C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/vio_file.v:29]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'vio_file' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav'
+"xvlog -m64 --relax -prj vio_file_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/ip/vio_0/sim/vio_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vio_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/obc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module obc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.srcs/sources_1/new/vio_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vio_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav'
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 2cc212b1ba0947f2afe3ea43c0054f33 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vio_file_behav xil_defaultlib.vio_file xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.obc
+Compiling module xil_defaultlib.vio_0
+Compiling module xil_defaultlib.vio_file
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot vio_file_behav
+
+****** Webtalk v2016.1 (64-bit)
+  **** SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+  **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav/xsim.dir/vio_file_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Feb 10 13:55:13 2020...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:45 . Memory (MB): peak = 2119.195 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '45' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/VLSI/Desktop/N150194/offset_binary_coding/offset_binary_coding.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vio_file_behav -key {Behavioral:sim_1:Functional:vio_file} -tclbatch {vio_file.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.1
+Time resolution is 1 ps
+source vio_file.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:42 . Memory (MB): peak = 2119.195 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vio_file_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:01:29 . Memory (MB): peak = 2119.195 ; gain = 0.000
